@@ -116,6 +116,13 @@ friends = ['Lilly', 'Dean', 'Marlie', 'Sarah', 'John']
 # print(friends[2:4])
 # print(friends[:3])
 # print(friends[:])
-print(len(friends))
-print(friends.index('Marlie'))
-print(friends.count('Marlie'))
+# print(len(friends))
+# print(friends.index('Marlie'))
+# print(friends.count('Marlie'))
+    # SORT IN ALPHABETICAL ORDER
+friends.sort()
+    # SORT IN REVERSE ORDER
+friends.sort(reverse=True)
+    # REVERSE THE ORDER OF THE STRING
+friends.reverse()
+print(friends)
