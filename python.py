@@ -27,7 +27,7 @@
 
 
 # STRING BASICS/SLICING
-msg='welcome to python'
+# msg='welcome to python'
     #0123456789 
 # print(msg)
     # WANT IT TO PRINT TWICE?
@@ -91,3 +91,31 @@ msg='welcome to python'
 
 
 # USER INPUT
+# name= input('What is your name?: ')
+# age= input('What is your age?: ')
+# print('Hello ' + name + '! ' + 'You are ' + age + ' years old.')
+
+# num1= input('Enter a digit: ')
+# num2= input('Enter a second digit: ')
+# answer= float(num1)+float(num2)
+# print(answer)
+
+# name= input('What is your name?: ')
+# distance_in_km= input('What is the distance in km?: ')
+# distance_in_miles= float(distance_in_km)/1.609
+# print(f'Hello {name.title()}! {distance_in_km}km is equivalent to {round(distance_in_miles,1)} miles.')
+
+
+
+# LISTS- BASICS
+friends = ['Lilly', 'Dean', 'Marlie', 'Sarah', 'John']
+        #    0         1        2        3        4
+# print(friends)
+# print(friends[1], friends[2])
+# print(friends[-2])
+# print(friends[2:4])
+# print(friends[:3])
+# print(friends[:])
+print(len(friends))
+print(friends.index('Marlie'))
+print(friends.count('Marlie'))
